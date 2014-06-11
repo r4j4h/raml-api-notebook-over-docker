@@ -3,7 +3,7 @@ FROM ubuntu:precise
 
 # Install dependencies
 RUN apt-get -y update
-RUN apt-get install -y bridge-utils wget dnsmasq build-essential python nodejs nodejs-dev npm 
+RUN apt-get install -y bridge-utils wget dnsmasq build-essential python
 
 
 # Install Pre-reqs
