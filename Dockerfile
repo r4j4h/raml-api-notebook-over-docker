@@ -27,5 +27,5 @@ RUN bootstrap.sh
 
 WORKDIR /usr/local/api-notebook
 
-EXPOSE 9013
-EXPOSE 35730
+EXPOSE 3000
+
